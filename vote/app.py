@@ -5,8 +5,8 @@ import socket
 import random
 import json
 
-option_a = os.getenv('OPTION_A', "Comments")
-option_b = os.getenv('OPTION_B', "No Comments")
+option_a = os.getenv('OPTION_A', "Razor")
+option_b = os.getenv('OPTION_B', "Not Razor")
 hostname = socket.gethostname()
 
 app = Flask(__name__)
